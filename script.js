@@ -23,8 +23,8 @@ map.on('contextmenu', function(e) {
 
     // Construct the prefilled form URL
     var formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfSHBM_HSUU5kR--wH2Gbqd2nYaHJ5sdoAgUr1awYZdQ8hWeg/viewform?usp=pp_url';
-    formUrl += '&entry.[1381225094]=' + lat;
-    formUrl += '&entry.[102830186]=' + lng;
+    formUrl += '&entry.1381225094=' + lat;
+    formUrl += '&entry.102830186=' + lng;
 
 
     // Create a popup at the clicked location with a link to the form
