@@ -52,7 +52,7 @@ fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vRuOsnWzOa4supR892usPTIQZ
 
 
             // Add a marker to the map at the latitude and longitude
-            var marker = L.marker([lat, lng]).addTo(map)
+            var marker = L.marker([lat, lng], {icon: L.Icon.Default}).addTo(map)
                 .bindPopup(`<b>${name}</b><br>${experience}`);
         }
     });
