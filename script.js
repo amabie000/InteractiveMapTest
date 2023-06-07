@@ -45,14 +45,14 @@ fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vRuOsnWzOa4supR892usPTIQZ
         // Iterate over each row in the data
         for (let row of csvData) {
             // Get the latitude and longitude from the row
-            let lat = row['Lat'];
-            let lng = row['Long'];
-            let name = row['Name'];
-            let experience = row['What Happened Here'];
+            let lat = row 'Lat';
+            let lng = row 'Long';
+            let name = row 'Name';
+            let experience = row 'What Happened Here';
 
 
             // Add a marker to the map at the latitude and longitude
-            L.marker([lat, lng]).addTo(map)
+            L.marker(lat, lng).addTo(map)
                 .bindPopup(`<b>${name}</b><br>${experience}`);
         }
     });
