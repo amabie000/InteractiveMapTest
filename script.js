@@ -22,7 +22,7 @@ map.on('contextmenu', function(e) {
 
 
     // Construct the prefilled form URL
-    var formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfSHBM_HSUU5kR--wH2Gbqd2nYaHJ5sdoAgUr1awYZdQ8hWeg/viewform?usp=pp_url&entry.1611770807=a&entry.987147841=a&entry.19781950=2001-01-01&entry.1381225094=2&entry.102830186=3';
+    var formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfSHBM_HSUU5kR--wH2Gbqd2nYaHJ5sdoAgUr1awYZdQ8hWeg/viewform?usp=pp_url';
     formUrl += '&entry.[1381225094]=' + lat;
     formUrl += '&entry.[102830186]=' + lng;
 
